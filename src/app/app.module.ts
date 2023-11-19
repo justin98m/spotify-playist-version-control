@@ -5,16 +5,17 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ViewPlaylistComponent } from './view-playlist/view-playlist.component';
 import { LoginComponent } from './login/login.component';
+import { NavComponent } from './nav/nav.component';
+import { HomeComponent } from './home/home.component';
 
-const routes: Routes = [
-  {path: 'view-playlist', component: ViewPlaylistComponent}
-]
 
 @NgModule({
   declarations: [
     AppComponent,
     ViewPlaylistComponent,
-    LoginComponent
+    LoginComponent,
+    NavComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
