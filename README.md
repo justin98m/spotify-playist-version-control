@@ -1,5 +1,13 @@
 # SpotifyPlaylistVs
 
+A simple web application that will allow you to save versions of your Spotify Playlists so any instance of a specific playlist can be reinstantiated.
+
+I came up with the idea when i realiezed I was making multiple versions of playlists I had in order not to lose the older/outdated version playlist.
+For example if I have a plalist called "Chilling" 
+The music I was "Chilling" to five years ago is different to the music I chill to now. I don't want to make a Chilling II nor do I want to delete the history of 
+what I was chilling to five years ago. So here is my niche solution for my very niche problem.
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.9.
 
 ## Development server
