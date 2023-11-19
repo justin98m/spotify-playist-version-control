@@ -1,3 +1,6 @@
 <p>view-playlist works!</p>
+<div *ngFor="let playlist of playlists">
+  <p>{{playlist.name}}</p>
+</div>
 <button class="seeMore"><span>See More</span></button>
 <router-outlet></router-outlet>

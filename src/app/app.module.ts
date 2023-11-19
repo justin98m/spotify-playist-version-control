@@ -7,6 +7,7 @@ import { ViewPlaylistComponent } from './view-playlist/view-playlist.component';
 import { LoginComponent } from './login/login.component';
 import { NavComponent } from './nav/nav.component';
 import { HomeComponent } from './home/home.component';
+import { NgFor, NgIf } from '@angular/common';
 
 
 @NgModule({
@@ -19,7 +20,9 @@ import { HomeComponent } from './home/home.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgFor,
+    NgIf
   ],
   providers: [],
   bootstrap: [AppComponent]
