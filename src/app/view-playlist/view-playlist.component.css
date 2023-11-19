@@ -1,0 +1,13 @@
+.seeMore{
+  margin-left: 75%;
+}
+/*small Desktpp*/
+@media (max-width: 1374px){}
+/*tablet*/
+@media (max-width: 964px){
+
+}
+/*mobile */
+@media (max-width: 676px){
+
+}
